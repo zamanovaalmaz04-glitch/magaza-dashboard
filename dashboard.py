@@ -249,7 +249,7 @@ if mehsul_s:
     except Exception as e:
         st.warning(f"TOP 10 qrafiki göstərilmədi: {type(e).__name__}")
 
-with st.expander("📋 Ham data (ilk 100 sətir)"):
+with st.expander("📋 📋 Ətraflı data (ilk 100 sətir)"):
     try:
         st.dataframe(df.head(100), use_container_width=True)
     except:
